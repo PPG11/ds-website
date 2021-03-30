@@ -3,7 +3,6 @@
  */
 
 import React from 'react';
-import classNames from 'classnames';
 import Header from './Header';
 import Footer from './Footer';
 import layoutStyle from './Layout.module.less';

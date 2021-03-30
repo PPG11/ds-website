@@ -9,7 +9,7 @@ module.exports = {
     title: `sell-store`,
     description: `ds sell store`,
     author: `LL`,
-    siteUrl: `https://mystore.com`,
+    siteUrl: `http://106.15.58.133`,
   },
 
   plugins: [
