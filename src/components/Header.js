@@ -17,7 +17,7 @@ export default () => {
           </Link>
           <div className={`d-flex justify-content-end ${headerStyle.navdiv}`}>
             <ul
-              className={`navbar-nav justify-content-center ${headerStyle.mainnav}`}
+              className={`navbar-nav justify-content-center flex-row ${headerStyle.mainnav}`}
             >
               <li className="nav-item">
                 <Link
@@ -48,10 +48,22 @@ export default () => {
               </li>
             </ul>
             <div
+              className={`d-flex align-items-center justify-content-center ${headerStyle.register}`}
+            >
+              <p>首次使用？</p>
+              <Link
+                className="nav-link"
+                to="/register"
+                activeClassName="active"
+              >
+                立即注册
+              </Link>
+            </div>
+            <div
               className={`d-flex align-items-center justify-content-center ${headerStyle.login}`}
             >
               <Link className="nav-link" to="/login" activeClassName="active">
-                注册/登陆
+                登陆
               </Link>
             </div>
           </div>

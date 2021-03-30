@@ -1,13 +1,13 @@
 import React from 'react';
-import style from './register.module.less';
+import style from './login.module.less';
 import Layout from '../components/Layout';
-import Register from '../components/Register';
+import Login from '../components/Login';
 
 export default () => {
   return (
     <Layout>
       <div className={style.main}>
-        <Register />
+        <Login />
       </div>
     </Layout>
   );

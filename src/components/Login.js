@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import Notice from './Notice';
-import style from './Register.module.less';
+import style from './Login.module.less';
 
 export default () => {
   const [name, setName] = useState('');
@@ -51,7 +51,7 @@ export default () => {
   return (
     <>
       <div className={style.wrapper}>
-        <h2 className={style.title}>注册</h2>
+        <h2 className={style.title}>登陆</h2>
         <input
           value={name}
           onChange={handleName}
@@ -89,10 +89,7 @@ export default () => {
           onKeyDown={handleSubmit}
           tabIndex={0}
         >
-          点我注册
-        </div>
-        <div className={style.postscript}>
-          * 欢迎来到本网站
+          登陆
         </div>
       </div>
       <Notice showNotice={showNotice} setShowNotice={setShowNotice} />

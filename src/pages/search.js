@@ -1,13 +1,12 @@
 import React from 'react';
-import style from './register.module.less';
+import style from './search.module.less';
 import Layout from '../components/Layout';
-import Register from '../components/Register';
 
 export default () => {
   return (
     <Layout>
-      <div className={style.main}>
-        <Register />
+      <div className={style.timer}>
+        <h1>这里是搜索页面</h1>
       </div>
     </Layout>
   );
