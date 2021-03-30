@@ -37,6 +37,15 @@ export default () => {
                   我要挂号
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link"
+                  to="/estimate"
+                  activeClassName="active"
+                >
+                  估价服务
+                </Link>
+              </li>
             </ul>
             <div
               className={`d-flex align-items-center justify-content-center ${headerStyle.login}`}
